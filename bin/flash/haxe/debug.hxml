@@ -1,0 +1,15 @@
+-main ApplicationMain 
+-lib openfl
+-lib actuate
+-cp src
+-D tools=1.2.1
+-D openfl=1.2
+-D fdb
+-D web
+-swf-version 11.2
+-swf bin/flash/bin/HexagonEvolved.swf
+-swf-header 1080:680:60:000000
+-cp bin/flash/haxe
+#--remap nme:flash
+--no-inline
+-debug
